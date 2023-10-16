@@ -5,15 +5,15 @@
 ```bash
 ├── .husky # pre-commit hooks
 │   └── commit-msg # commit message convention
-│   └── pre-commit # script to run ESLint, Prettier, Type Check and Jest
-├── cypress # end-to-end tests
+│   └── pre-commit # script to run ESLint, Prettier, Type Check, Cypress E2E tests and Jest Unit tests
+├── cypress # Cypress end-to-end tests
 │   ├── fixtures # mock data
 │   ├── integration # test files
 │   ├── plugins # plugins
 │   └── support # reusable functions
 ├── public
 ├── src
-│   ├── test # unit tests
+│   ├── test # Jest unit tests
 │   │   ├── __tests__ # test files
 │   │   │   └── app.test.tsx
 │   │   └── __mocks__ # mock files

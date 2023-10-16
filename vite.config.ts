@@ -10,6 +10,10 @@ const config: ViteConfig = {
     globals: true,
     environment: 'jsdom',
   },
+  server: {
+    host: true,
+    port: 3000,
+  },
   build: {
     outDir: 'build',
     assetsDir: 'assets',
