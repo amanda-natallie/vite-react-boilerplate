@@ -1,20 +1,5 @@
 # Simple Counter with Context API & Hooks
 
-# React Application with Vite, TypeScript, ESLint, Prettier, Husky, CommitLint, Jest, and Cypress
-
-This project is a React application set up with Vite for fast development, TypeScript for type checking, ESLint and Prettier for code linting and formatting, Husky for pre-commit hooks, CommitLint for commit message conventions, Jest for unit testing, and Cypress for component & end-to-end testing.
-
-## Project Structure
-
-Certainly! Below is a sample readme.md file for your React application that utilizes the mentioned technologies:
-
-markdown
-Copy code
-
-# React Application with Vite, TypeScript, ESLint, Prettier, Husky, CommitLint, Jest, and Cypress
-
-This project is a React application set up with Vite for fast development, TypeScript for type checking, ESLint and Prettier for code linting and formatting, Husky for pre-commit hooks, CommitLint for commit message conventions, Jest for unit testing, and Cypress for component & end-to-end testing.
-
 ## Project Structure
 
 ```bash
@@ -28,6 +13,11 @@ This project is a React application set up with Vite for fast development, TypeS
 │   └── support # reusable functions
 ├── public
 ├── src
+│   ├── test # unit tests
+│   │   ├── __tests__ # test files
+│   │   │   └── app.test.tsx
+│   │   └── __mocks__ # mock files
+│   │      └── file-mock.ts # mock file imports
 │   ├── components # reusable components
 │   │   ├── component-a.tsx
 │   │   ├── component-b.tsx
