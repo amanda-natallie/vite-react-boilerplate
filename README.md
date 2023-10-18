@@ -1,4 +1,4 @@
-# Simple Counter with Context API & Hooks
+# Simple Boilerplate for Vite, React, Typescript, EsLint, Prettier, Husky, CommitLint, Jest (unit) and Cypress (E2E)
 
 ## Project Structure
 
